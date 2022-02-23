@@ -50,13 +50,13 @@ class _HomePageState extends State<HomePage> {
         ),
         body: SafeArea(
           child: Container(
-            padding: Vx.m32,
+            padding: Vx.m16,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 CatalogHeader(),
                 if (CatalogModel.items != null && CatalogModel.items.isNotEmpty)
-                  CatalogList().py16().expand()
+                  CatalogList().py20().expand()
                 else
                   CircularProgressIndicator().centered().expand(),
               ],

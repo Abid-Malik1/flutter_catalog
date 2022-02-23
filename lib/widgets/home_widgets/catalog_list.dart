@@ -16,7 +16,7 @@ class CatalogList extends StatelessWidget {
       shrinkWrap: true,
       itemCount: CatalogModel.items.length,
       itemBuilder: (context, index) {
-        final catalog = CatalogModel.items[index];
+        final catalog = CatalogModel.getByPosition(index);
         return InkWell(
           onTap: () => Navigator.push(
             context,
@@ -59,8 +59,8 @@ class CatalogItem extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               catalog.name.text.lg.color(context.accentColor).bold.make(),
-              catalog.desc.text.make(),
-              10.heightBox,
+              catalog.desc.text.fontWeight(FontWeight.normal).make(),
+              15.heightBox,
               ButtonBar(
                 alignment: MainAxisAlignment.spaceBetween,
                 buttonPadding: EdgeInsets.zero,
