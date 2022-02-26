@@ -1,14 +1,15 @@
 class CatalogModel {
-  static final items = [
-    Item(
-      id: 1,
-      name: "iPhone12",
-      desc: "iPhone12 Pro",
-      price: 1299,
-      color: "#33505a",
-      image: "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg",
-    )
-  ];
+  static List<Item> items = [];
+
+  Item getById(int id) =>
+
+      //Get item by ID
+
+      items.firstWhere((element) => element.id == id, orElse: null);
+
+  // Get item by position
+
+  Item getByPosition(int pos) => items[pos];
 }
 
 class Item {
@@ -26,4 +27,22 @@ class Item {
       required this.price,
       required this.color,
       required this.image});
+
+  factory Item.fromMap(Map<String, dynamic> map) => Item(
+        id: map["id"],
+        name: map["name"],
+        desc: map["desc"],
+        price: map["price"],
+        color: map["color"],
+        image: map["image"],
+      );
+
+  toMap() => {
+        "id": id,
+        "name": name,
+        "desc": desc,
+        "price": price,
+        "color": color,
+        "image": image,
+      };
 }

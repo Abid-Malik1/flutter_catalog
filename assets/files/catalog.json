@@ -1,0 +1,76 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "Apple AirPods Pro",
+            "desc": "Apple AirPods Pro Good",
+            "price": 1199,
+            "color": "#33505a",
+            "image": "https://www.freeiconspng.com/thumbs/iphone-x-pictures/iphone-x-factory--8.png"
+        },
+        {
+            "id": 2,
+            "name": "Apple MacBook Air 13",
+            "desc": "M1 8-core GPU 16GB 1TB Space Gray (CTO)",
+            "price": 1099,
+            "color": "#33505a",
+            "image": "https://m.media-amazon.com/images/I/51cND46Q0VL._AC_UY436_FMwebp_QL65_.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Apple iPhone 12",
+            "desc": "128GB, White - Unlocked (Renewed Premium)",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://m.media-amazon.com/images/I/61kYyYE90qL._AC_UY436_FMwebp_QL65_.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Apple iPad",
+            "desc": "Mini 4 (Wi-Fi, 128GB) - Gold",
+            "price": 899,
+            "color": "#33505a",
+            "image": "https://m.media-amazon.com/images/I/71MD7JLYSvL._AC_UY436_FMwebp_QL65_.jpg"
+        },
+        {
+            "id": 5,
+            "name": "iPhone 7",
+            "desc": "Apple iPhone 7",
+            "price": 799,
+            "color": "#33505a",
+            "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-7r4.jpg"
+        },
+        {
+            "id": 6,
+            "name": "iPhone 8",
+            "desc": "Apple iPhone 8",
+            "price": 699,
+            "color": "#33505a",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-8-new-1.jpg"
+        },
+        {
+            "id": 7,
+            "name": "iPhone 10",
+            "desc": "Apple iPhone 10",
+            "price": 599,
+            "color": "#33505a",
+            "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-x.jpg"
+        },
+        {
+            "id": 8,
+            "name": "iPhone 11 ",
+            "desc": "Apple iPhone 11",
+            "price": 499,
+            "color": "#33505a",
+            "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg"
+        },
+        {
+            "id": 9,
+            "name": "iPhone 13",
+            "desc": "Apple iPhone 13",
+            "price": 399,
+            "color": "#33505a",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-01.jpg"
+        }
+    ]
+}
